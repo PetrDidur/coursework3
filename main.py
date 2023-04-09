@@ -10,6 +10,7 @@ if __name__ == '__main__':
         receiver = get_receiver(operation)
         amount = get_amount(operation)
         currency = get_currency(operation)
+        print()
         print(f'{date_actual} {description}\n'
               f'{sender} -> {receiver}\n'
               f'{amount} {currency}\n')
